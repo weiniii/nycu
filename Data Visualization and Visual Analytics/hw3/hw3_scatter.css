@@ -1,0 +1,79 @@
+body{
+  /* margin: 10px; */
+  background: #a1ffce; 
+  background: -webkit-linear-gradient(to top, #a1ffce, #faffd1); 
+  background: linear-gradient(to top, #a1ffce, #faffd1);
+  text-align: center;
+  overflow: hidden;
+}
+html{
+  min-height: 100%;
+}
+rect{
+  opacity: 1;
+  stroke-width: 2px;
+  stroke: black;
+}
+text{
+  /* font-size: 2em; */
+  font-family: 'Comic Sans MS';
+  text-align: center;
+  text-anchor: middle;
+}
+circle{
+  opacity: 0.7;
+  stroke: black;
+  stroke-width: 1px;
+  transition: 1000ms;
+}
+circle:hover{
+  fill: yellow;
+}
+path {
+	fill: #8ef5e9;
+  opacity: 0.07;
+	stroke: green;
+  stroke-width: 20px;
+}
+input{
+  font-family: 'Comic Sans MS';
+  opacity: 0.7;
+}
+.input1{
+  border-color: red;
+  border-radius: 10px;
+  background-color: #ff9494;
+}
+.input2{
+  border-color: green;
+  border-radius: 10px;
+  background-color: #b9ff94;
+}
+/* .axis{
+  stroke: red;
+} */
+.label{
+  font-size: 2em;
+  font-family: 'Comic Sans MS';
+}
+.axis{
+  color: #9c9898;
+  stroke: #7a7979;
+  font-family: Verdana;
+}
+.home{
+  font-size: 2.5em;
+  color: #233d7a;
+}
+
+.home:hover{
+  color: red;
+}
+label{
+  font-family: 'Comic Sans MS';
+}
+.mouserect{
+  text-align: center;
+  text-anchor: middle;
+
+}

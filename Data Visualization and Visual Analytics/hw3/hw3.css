@@ -1,0 +1,32 @@
+body{
+    /* margin: 10px; */
+    background: #a1ffce; 
+    background: -webkit-linear-gradient(to top, #a1ffce, #faffd1); 
+    background: linear-gradient(to top, #a1ffce, #faffd1);
+    text-align: center;
+    overflow: visible;
+}
+html{
+    min-height: 100%;
+}
+text{
+    text-align: center;
+    text-anchor: middle;
+    font-family: 'Comic Sans MS';
+    fill: #233d7a;
+}
+.spotify{
+    font-size: 6em;
+}
+.hint{
+    font-size: 1.4em;
+}
+.pie{
+    font-size: 3.3em;
+}
+.scatter{
+    font-size: 3.3em;
+}
+text:hover{
+    fill: #faffd1;
+}

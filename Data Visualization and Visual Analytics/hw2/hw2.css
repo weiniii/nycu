@@ -1,0 +1,25 @@
+body {
+  overflow : hidden;
+}
+
+.tick line{
+	stroke: #C0C0BB;
+}
+
+.tick text {
+  font-size: 2em;
+  fill: #635F5D;
+}
+
+text {
+  font-family: sans-serif;
+}
+
+.title {
+  font-size: 2.5em;
+  fill: #635F5D;
+}
+
+.axes {
+  cursor: pointer;
+}

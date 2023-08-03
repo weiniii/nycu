@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>hw3_Scatter</title>
+        <link rel="stylesheet" href="hw3_scatter.css">
+        <script src="https://d3js.org/d3.v6.min.js"></script>
+    </head>
+
+    <body>
+        <div>
+            <label id="home" class="home">Spotify</label><br>
+            <label  class="label">Artists list</label><br>
+            <label class="tip" id="tip">Choose two artists to compare. Please wait 20s !!!</label><br>
+            <input class="input1" type="search"  list="datalistOptions1" id="exampleDataList1" placeholder="Search for an artist..."  > 
+            <datalist id="datalistOptions1" ></datalist>
+
+            <input class="input2" type="search"  list="datalistOptions2" id="exampleDataList2" placeholder="Search for an artist..."  >
+            <datalist id="datalistOptions2" ></datalist>
+
+            <!-- <script src="datalist.js"></script> -->
+            <br>
+            <br>
+        </div>
+      	<div id="menus">
+          <span id="y-menus"></span>
+          
+          <span id="x-menus"></span>
+      	</div>
+        <svg width="960" height="600"></svg>
+        
+        <script src="hw3_scatter.js"></script>
+        
+
+    </body>
+</html>

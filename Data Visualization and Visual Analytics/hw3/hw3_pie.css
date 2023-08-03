@@ -1,0 +1,36 @@
+text{
+    text-align: center;
+    font-size: 1em; 
+    font-family: 'Comic Sans MS';
+}
+html{
+    min-height: 100%;
+}
+body{
+    margin: 0px;
+    text-align: center;
+}
+label{
+    font-family: 'Comic Sans MS';
+}
+
+.label{
+    font-size: 2em;
+    color: #233d7a;
+}
+.home{
+    font-size: 2.5em;
+    color: #233d7a;
+}
+
+.home:hover{
+    color: red;
+}
+body{
+    /* margin: 10px; */
+    background: #a1ffce; 
+    background: -webkit-linear-gradient(to top, #a1ffce, #faffd1); 
+    background: linear-gradient(to top, #a1ffce, #faffd1);
+    text-align: center;
+    overflow: visible;
+}
