@@ -6,3 +6,5 @@
 ## 112-spring
 * Reinforcement Learning
 * Network Security  
+## 112-fall
+* Machine Learning
