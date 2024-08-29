@@ -4,6 +4,7 @@
 * Neural network - backpropagation
 * Deep neural network
 * Resnet 18, 50
+* Autoencoder, VAE
 * ACGAN, DCGAN
 * DDPG, DQNm double DQN
 
